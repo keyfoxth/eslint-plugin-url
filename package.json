@@ -1,0 +1,39 @@
+{
+  "name": "eslint-plugin-url",
+  "version": "1.0.0",
+  "description": "ESLint plugin with rules that help validate proper URLs.",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "url",
+    "https",
+    "http"
+  ],
+  "author": "Yuwei",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keyfoxth/eslint-plugin-url.git"
+  },
+  "homepage": "https://github.com/keyfoxth/eslint-plugin-url#readme",
+  "bugs": {
+    "url": "https://github.com/keyfoxth/eslint-plugin-url/issues"
+  },
+  "peerDependencies": {
+    "eslint": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0"
+  },
+  "dependencies": {
+    "requireindex": "^1.1.0"
+  }
+}
