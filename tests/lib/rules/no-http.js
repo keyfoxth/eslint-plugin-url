@@ -34,6 +34,12 @@ tester.run('no-http', rule, {
     },
     {
       code: `'&url=https://github.com'`
+    },
+    {
+      code: `'http://localhost'`
+    },
+    {
+      code: `'http://127.0.0.1'`
     }
   ],
   invalid: [

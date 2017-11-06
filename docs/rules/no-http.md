@@ -19,4 +19,6 @@ HTTP is not safe enough.
 '//github.com'
 'https://github.com'
 '&url=https://github.com'
+'http://127.0.0.1'
+'http://localhost'
 ```
